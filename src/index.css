@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    font-family: "Poppins", sans-serif;
+  }
+  
+.f{
+    color:blue;
+    font-size:30px;
+    animation: colorChange 1s infinite;
+}
+@keyframes colorChange {
+    0% {
+      color: blue;
+      opacity: 1;
+    }
+    25% {
+      color: green;
+      opacity: 1;
+    }
+    50% {
+      color: yellow;
+      opacity: 1;
+    }
+    75% {
+      color: pink;
+      opacity: 1;
+    }
+    85% {
+        color: red;
+        opacity: 1;
+      }
+    100% {
+      color: blue;
+      opacity: 1;
+    }
+  }
+  
+
+  
+.btn{
+    color:black;
+}
+.btn:hover{
+    color:white;
+}
+.carticon{
+  font-size:80px;
+   
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.address {
+  text-align: left;
+}
+
+.shop-title {
+  text-align: right;
+}
+
+
+
